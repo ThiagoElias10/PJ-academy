@@ -1,24 +1,90 @@
 {
-  "expo": {
-    "name": "pulso",
-    "slug": "pulso",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "ios": {
-      "supportsTablet": true
+  "user": { "id": 1, "name": "Lucas", "initials": "LC" },
+  "home": {
+    "id": 1,
+    "headline": "O próximo passo é seu.",
+    "heroTag": "NÃO DESCULPA, MAS MOVIMENTO",
+    "heroTitle": "ENCONTRE\nSEU PULSO.",
+    "heroText": "Treinos com propósito. Evolução de verdade. Um dia de cada vez.",
+    "heroImage": "https://SEU-LINK/home-hero.jpg"
+  },
+  "weekWorkouts": [
+    { "id": 1, "day": "SEG · CONCLUÍDO", "name": "A · Inferiores", "duration": "50 min", "done": true, "image": "https://SEU-LINK/semana-a.jpg" },
+    { "id": 2, "day": "QUA · PRÓXIMO", "name": "B · Superiores", "duration": "45 min", "done": false, "image": "https://SEU-LINK/semana-b.jpg" },
+    { "id": 3, "day": "SEX · AGENDADO", "name": "C · Cardio", "duration": "30 min", "done": false, "image": "https://SEU-LINK/semana-c.jpg" }
+  ],
+  "monthWorkouts": [
+    { "id": 1, "tag": "TREINO A", "title": "Força de base", "subtitle": "Inferiores + Core", "duration": "45 min", "image": "https://SEU-LINK/mes-1.jpg" },
+    { "id": 2, "tag": "TREINO B", "title": "Potência superior", "subtitle": "Peito, costas e braços", "duration": "40 min", "image": "https://SEU-LINK/mes-2.jpg" },
+    { "id": 3, "tag": "TREINO C", "title": "Ritmo intenso", "subtitle": "Condicionamento", "duration": "30 min", "image": "https://SEU-LINK/mes-3.jpg" },
+    { "id": 4, "tag": "TREINO D", "title": "Corpo em equilíbrio", "subtitle": "Mobilidade e recuperação", "duration": "20 min", "image": "https://SEU-LINK/mes-4.jpg" }
+  ],
+  "monthProgress": { "id": 1, "done": 8, "total": 12, "label": "Treinos neste mês", "text": "Consistência é o que move você." },
+  "plans": [
+    {
+      "id": "A",
+      "chip": "A · Inferiores",
+      "tag": "TREINO A · INFERIORES + CORE",
+      "title": "FORÇA\nDE BASE.",
+      "duration": "45 min",
+      "exerciseCount": 6,
+      "level": "Intermediário",
+      "image": "https://SEU-LINK/plano-a.jpg",
+      "warmup": "Comece com 5 min de mobilidade de quadril e cardio leve. Faça uma série de aquecimento antes do primeiro exercício.",
+      "exercises": [
+        { "id": 1, "group": "QUADRÍCEPS · GLÚTEOS", "name": "Agachamento livre", "sets": "4", "reps": "10–12", "rest": "90 s", "note": "Mantenha a coluna neutra e os joelhos alinhados.", "image": "https://SEU-LINK/ex-a1.jpg" },
+        { "id": 2, "group": "QUADRÍCEPS · GLÚTEOS", "name": "Leg press 45°", "sets": "3", "reps": "12", "rest": "60 s", "note": "Desça com controle, sem tirar o quadril do apoio.", "image": "https://SEU-LINK/ex-a2.jpg" },
+        { "id": 3, "group": "POSTERIORES · GLÚTEOS", "name": "Levantamento romano", "sets": "3", "reps": "10–12", "rest": "90 s", "note": "Leve o quadril para trás e sinta o alongamento.", "image": "https://SEU-LINK/ex-a3.jpg" },
+        { "id": 4, "group": "PERNAS · GLÚTEOS", "name": "Afundo com halteres", "sets": "3", "reps": "10 / lado", "rest": "60 s", "note": "Passo amplo, tronco ereto e controle na descida.", "image": "https://SEU-LINK/ex-a4.jpg" },
+        { "id": 5, "group": "PANTURRILHAS", "name": "Panturrilha em pé", "sets": "3", "reps": "15", "rest": "45 s", "note": "Suba até o limite e faça pausa no topo.", "image": "https://SEU-LINK/ex-a5.jpg" },
+        { "id": 6, "group": "CORE", "name": "Prancha abdominal", "sets": "3", "reps": "30–40 s", "rest": "45 s", "note": "Mantenha o corpo alinhado, sem arquear a lombar.", "image": "https://SEU-LINK/ex-a6.jpg" }
+      ]
     },
-    "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
-      }
+    {
+      "id": "B",
+      "chip": "B · Superiores",
+      "tag": "TREINO B · PEITO + COSTAS",
+      "title": "POTÊNCIA\nSUPERIOR.",
+      "duration": "40 min",
+      "exerciseCount": 3,
+      "level": "Intermediário",
+      "image": "https://SEU-LINK/plano-b.jpg",
+      "warmup": "5 min de remo leve e rotações de ombro antes de começar.",
+      "exercises": [
+        { "id": 1, "group": "PEITO", "name": "Supino reto", "sets": "4", "reps": "8–10", "rest": "90 s", "note": "Escápulas firmes no banco e controle na descida.", "image": "https://SEU-LINK/ex-b1.jpg" },
+        { "id": 2, "group": "COSTAS", "name": "Remada curvada", "sets": "3", "reps": "10–12", "rest": "75 s", "note": "Puxe com os cotovelos, sem balançar o tronco.", "image": "https://SEU-LINK/ex-b2.jpg" },
+        { "id": 3, "group": "OMBROS", "name": "Desenvolvimento", "sets": "3", "reps": "10", "rest": "60 s", "note": "Empurre sem estender totalmente os cotovelos.", "image": "https://SEU-LINK/ex-b3.jpg" }
+      ]
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    {
+      "id": "C",
+      "chip": "C · Cardio",
+      "tag": "TREINO C · CONDICIONAMENTO",
+      "title": "RITMO\nINTENSO.",
+      "duration": "30 min",
+      "exerciseCount": 2,
+      "level": "Avançado",
+      "image": "https://SEU-LINK/plano-c.jpg",
+      "warmup": "3 min de corda leve para elevar a frequência cardíaca.",
+      "exercises": [
+        { "id": 1, "group": "CARDIO", "name": "Corda naval", "sets": "5", "reps": "30 s", "rest": "30 s", "note": "Ondas alternadas, ritmo constante.", "image": "https://SEU-LINK/ex-c1.jpg" },
+        { "id": 2, "group": "CARDIO", "name": "Burpee", "sets": "4", "reps": "12", "rest": "45 s", "note": "Mantenha o core firme na prancha.", "image": "https://SEU-LINK/ex-c2.jpg" }
+      ]
+    },
+    {
+      "id": "D",
+      "chip": "D · Mobilidade",
+      "tag": "TREINO D · RECUPERAÇÃO",
+      "title": "CORPO EM\nEQUILÍBRIO.",
+      "duration": "20 min",
+      "exerciseCount": 2,
+      "level": "Iniciante",
+      "image": "https://SEU-LINK/plano-d.jpg",
+      "warmup": "Respire fundo por 1 minuto antes de iniciar.",
+      "exercises": [
+        { "id": 1, "group": "MOBILIDADE", "name": "Gato-vaca", "sets": "3", "reps": "10", "rest": "30 s", "note": "Movimente a coluna com a respiração.", "image": "https://SEU-LINK/ex-d1.jpg" },
+        { "id": 2, "group": "MOBILIDADE", "name": "Alongamento de quadril", "sets": "2", "reps": "40 s / lado", "rest": "20 s", "note": "Sem dor, apenas tensão leve.", "image": "https://SEU-LINK/ex-d2.jpg" }
+      ]
     }
-  }
+  ]
 }

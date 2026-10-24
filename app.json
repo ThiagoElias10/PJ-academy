@@ -1,90 +1,23 @@
 {
-  "user": { "id": 1, "name": "Lucas", "initials": "LC" },
-  "home": {
-    "id": 1,
-    "headline": "O próximo passo é seu.",
-    "heroTag": "NÃO DESCULPA, MAS MOVIMENTO",
-    "heroTitle": "ENCONTRE\nSEU PULSO.",
-    "heroText": "Treinos com propósito. Evolução de verdade. Um dia de cada vez.",
-    "heroImage": "https://i.pinimg.com/736x/8b/61/a0/8b61a02a91cdbc151e38fc81a75b95cc.jpg"
-  },
-  "weekWorkouts": [
-    { "id": 1, "day": "SEG · CONCLUÍDO", "name": "A · Inferiores", "duration": "50 min", "done": true, "image": "https://image.tuasaude.com/media/article/id/md/exercicios-para-posterior-de-coxa_74215.gif?width=686&height=487" },
-    { "id": 2, "day": "QUA · PRÓXIMO", "name": "B · Superiores", "duration": "45 min", "done": false, "image": "https://image.tuasaude.com/media/article/zl/lm/treino-de-superiores_74239.gif?width=686&height=487" },
-    { "id": 3, "day": "SEX · AGENDADO", "name": "C · Cardio", "duration": "30 min", "done": false, "image": "https://i.pinimg.com/originals/88/b7/f6/88b7f63b17e603da3cbfb036b2400df2.gif" }
-  ],
-  "monthWorkouts": [
-    { "id": 1, "tag": "TREINO A", "title": "Força de base", "subtitle": "Inferiores + Core", "duration": "45 min", "image": "https://i.pinimg.com/originals/9d/52/7b/9d527b5d3e90317734ff3325e88e9c18.gif" },
-    { "id": 2, "tag": "TREINO B", "title": "Potência superior", "subtitle": "Peito, costas e braços", "duration": "40 min", "image": "https://www.mundoboaforma.com.br/wp-content/uploads/2020/12/flexao-de-bracos-inclinada.gif" },
-    { "id": 3, "tag": "TREINO C", "title": "Ritmo intenso", "subtitle": "Condicionamento", "duration": "30 min", "image": "https://grandeatleta.com.br/wp-content/uploads/2018/08/Exercicio-alpinista-Mountain-climber.gif" },
-    { "id": 4, "tag": "TREINO D", "title": "Corpo em equilíbrio", "subtitle": "Mobilidade e recuperação", "duration": "20 min", "image": "https://image.tuasaude.com/media/article/kv/om/treino-de-quadriceps_74220.gif?width=686&height=487" }
-  ],
-  "monthProgress": { "id": 1, "done": 8, "total": 12, "label": "Treinos neste mês", "text": "Consistência é o que move você." },
-  "plans": [
-    {
-      "id": "A",
-      "chip": "A · Inferiores",
-      "tag": "TREINO A · INFERIORES + CORE",
-      "title": "FORÇA\nDE BASE.",
-      "duration": "45 min",
-      "exerciseCount": 6,
-      "level": "Intermediário",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL9QRh7y4unCMtWCfOey4HrNid60GfOFbJCXzJUzYZ9g&s=10",
-      "warmup": "Comece com 5 min de mobilidade de quadril e cardio leve. Faça uma série de aquecimento antes do primeiro exercício.",
-      "exercises": [
-        { "id": 1, "group": "QUADRÍCEPS · GLÚTEOS", "name": "Agachamento livre", "sets": "4", "reps": "10–12", "rest": "90 s", "note": "Mantenha a coluna neutra e os joelhos alinhados.", "image": "https://media.tenor.com/Re3T3B66V9UAAAAM/barbellsquats-gymexercisesmen.gif" },
-        { "id": 2, "group": "QUADRÍCEPS · GLÚTEOS", "name": "Leg press 45°", "sets": "3", "reps": "12", "rest": "60 s", "note": "Desça com controle, sem tirar o quadril do apoio.", "image": "https://www.mundoboaforma.com.br/wp-content/uploads/2020/12/pernas-leg-press-45-com-joelhos-no-peito.gif" },
-        { "id": 3, "group": "POSTERIORES · GLÚTEOS", "name": "Levantamento romano", "sets": "3", "reps": "10–12", "rest": "90 s", "note": "Leve o quadril para trás e sinta o alongamento.", "image": "https://i.pinimg.com/originals/59/0f/48/590f48f868175b1d9330c71a518774da.gif" },
-        { "id": 4, "group": "PERNAS · GLÚTEOS", "name": "Afundo com halteres", "sets": "3", "reps": "10 / lado", "rest": "60 s", "note": "Passo amplo, tronco ereto e controle na descida.", "image": "https://treinomestre.com.br/wp-content/uploads/2018/06/step-up-com-halter.gif" },
-        { "id": 5, "group": "PANTURRILHAS", "name": "Panturrilha em pé", "sets": "3", "reps": "15", "rest": "45 s", "note": "Suba até o limite e faça pausa no topo.", "image": "https://i.pinimg.com/originals/10/d6/af/10d6af807ec92a13252db97d37dafa8f.gif" },
-        { "id": 6, "group": "CORE", "name": "Prancha abdominal", "sets": "3", "reps": "30–40 s", "rest": "45 s", "note": "Mantenha o corpo alinhado, sem arquear a lombar.", "image": "https://www.mundoboaforma.com.br/wp-content/uploads/2020/12/prancha-com-elevacao-das-pernas-prancha-aranha.gif" }
-      ]
+  "expo": {
+    "name": "Pulso",
+    "slug": "pulso",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#10100e"
     },
-    {
-      "id": "B",
-      "chip": "B · Superiores",
-      "tag": "TREINO B · PEITO + COSTAS",
-      "title": "POTÊNCIA\nSUPERIOR.",
-      "duration": "40 min",
-      "exerciseCount": 3,
-      "level": "Intermediário",
-      "image": "https://SEU-LINK/plano-b.jpg",
-      "warmup": "5 min de remo leve e rotações de ombro antes de começar.",
-      "exercises": [
-        { "id": 1, "group": "PEITO", "name": "Supino reto", "sets": "4", "reps": "8–10", "rest": "90 s", "note": "Escápulas firmes no banco e controle na descida.", "image": "https://www.mundoboaforma.com.br/wp-content/uploads/2020/12/supino-reto.gif" },
-        { "id": 2, "group": "COSTAS", "name": "Remada curvada", "sets": "3", "reps": "10–12", "rest": "75 s", "note": "Puxe com os cotovelos, sem balançar o tronco.", "image": "https://www.mundoboaforma.com.br/wp-content/uploads/2020/12/costas-remada-curvada-.gif" },
-        { "id": 3, "group": "OMBROS", "name": "Desenvolvimento", "sets": "3", "reps": "10", "rest": "60 s", "note": "Empurre sem estender totalmente os cotovelos.", "image": "https://i.pinimg.com/originals/7d/7f/22/7d7f22fe04e867d665f219c9cad270cf.gif" }
-      ]
+    "icon": "./assets/icon.png",
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "output": "single"
     },
-    {
-      "id": "C",
-      "chip": "C · Cardio",
-      "tag": "TREINO C · CONDICIONAMENTO",
-      "title": "RITMO\nINTENSO.",
-      "duration": "30 min",
-      "exerciseCount": 2,
-      "level": "Avançado",
-      "image": "https://SEU-LINK/plano-c.jpg",
-      "warmup": "3 min de corda leve para elevar a frequência cardíaca.",
-      "exercises": [
-        { "id": 1, "group": "CARDIO", "name": "Corda naval", "sets": "5", "reps": "30 s", "rest": "30 s", "note": "Ondas alternadas, ritmo constante.", "image": "https://meutreinador.com/wp-content/uploads/2026/08/0010_Ondas-Alternadas-com-Corda-Naval.gif" },
-        { "id": 2, "group": "CARDIO", "name": "Burpee", "sets": "4", "reps": "12", "rest": "45 s", "note": "Mantenha o core firme na prancha.", "image": "https://treinototal.com.br/wp-content/uploads/2025/03/exercicio-burpee-como-fazer.gif" }
-      ]
-    },
-    {
-      "id": "D",
-      "chip": "D · Mobilidade",
-      "tag": "TREINO D · RECUPERAÇÃO",
-      "title": "CORPO EM\nEQUILÍBRIO.",
-      "duration": "20 min",
-      "exerciseCount": 2,
-      "level": "Iniciante",
-      "image": "https://SEU-LINK/plano-d.jpg",
-      "warmup": "Respire fundo por 1 minuto antes de iniciar.",
-      "exercises": [
-        { "id": 1, "group": "MOBILIDADE", "name": "Gato-vaca", "sets": "3", "reps": "10", "rest": "30 s", "note": "Movimente a coluna com a respiração.", "image": "https://treinototal.com.br/wp-content/uploads/2023/06/alongamento-Postura-gato-vaca.gif" },
-        { "id": 2, "group": "MOBILIDADE", "name": "Alongamento de quadril", "sets": "2", "reps": "40 s / lado", "rest": "20 s", "note": "Sem dor, apenas tensão leve.", "image": "https://www.mundoboaforma.com.br/wp-content/uploads/2023/11/21581301-elevacao-de-perna-deitado-com-elastico-de-resistencia-360.gif" }
-      ]
+    "experiments": {
+      "baseUrl": "/PJ-academy"
     }
-  ]
+  }
 }
